@@ -1,3 +1,6 @@
 [submodule "cmake/sdl2"]
 	path = cmake/sdl2
 	url = https://gitlab.com/aminosbh/sdl2-cmake-modules.git
+[submodule "lib/sdl2_dependencies"]
+	path = lib/sdl2_dependencies
+	url = https://github.com/MatteoL-W/sdl2_dependencies.git
