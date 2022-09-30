@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <SDL2/SDL.h>
+#include <memory>
 
 #include "State/IState.h"
 #include "State/Menu/MenuState.h"
@@ -15,7 +16,7 @@ public:
     static Engine* _instance;
 
     // State Machine
-    IState *getCurrentState() { return _currentState; };
+    std::shared_ptr<IState> getCurrentState() { return _currentState; };
 
     void refresh();
     void clean();
@@ -27,8 +28,8 @@ private:
     static void initiateWindowSize();
 
     // States
-    MenuState *_menuInterface;
-    IState *_currentState;
+    std::shared_ptr<MenuState> _menuInterface;
+    std::shared_ptr<IState> _currentState;
 
     SDL_Window *_window;
     SDL_GLContext _context;

@@ -28,7 +28,7 @@ Engine::Engine() {
     Tool::Initializer::verifyOpenGLContext(_context, _window);
 
     /* Define the states */
-    _menuInterface = new MenuState{};
+    _menuInterface = std::make_shared<MenuState>();
 
     /* Define the default interface */
     _currentState = _menuInterface;
