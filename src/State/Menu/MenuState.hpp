@@ -1,6 +1,6 @@
 #pragma once
 
-#include "State/IState.h"
+#include "State/IState.hpp"
 
 class MenuState : public IState {
 public:

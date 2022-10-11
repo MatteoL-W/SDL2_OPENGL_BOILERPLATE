@@ -4,8 +4,8 @@
 #include <SDL2/SDL.h>
 #include <memory>
 
-#include "State/IState.h"
-#include "State/Menu/MenuState.h"
+#include "State/IState.hpp"
+#include "State/Menu/MenuState.hpp"
 
 class Engine {
 public:

@@ -2,11 +2,11 @@
 #include <GL/glu.h>
 #include <iostream>
 
-#include "Engine.h"
-#include "State/Menu/MenuState.h"
-#include "Tool/Initializer/Initializer.h"
-#include "Configuration/Window.h"
-#include "Configuration/Project.h"
+#include "Engine.hpp"
+#include "State/Menu/MenuState.hpp"
+#include "Tool/Initializer/Initializer.hpp"
+#include "Configuration/Window.hpp"
+#include "Configuration/Project.hpp"
 
 /**
  * @brief Initialize the engine (assign the window and opengl, define the engine as running)

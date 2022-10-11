@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "Initializer.h"
+#include "Initializer.hpp"
 
 namespace Tool {
     void Initializer::initialize() {

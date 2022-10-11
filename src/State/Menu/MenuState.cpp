@@ -1,11 +1,11 @@
 #include <memory>
 #include "SDL2/SDL.h"
 
-#include "Engine.h"
-#include "MenuState.h"
-#include "Tool/Text/Text.h"
-#include "Constant/Color.h"
-#include "Constant/Font.h"
+#include "Engine.hpp"
+#include "MenuState.hpp"
+#include "Tool/Text/Text.hpp"
+#include "Constant/Color.hpp"
+#include "Constant/Font.hpp"
 
 std::unique_ptr<Tool::Text> titleText;
 

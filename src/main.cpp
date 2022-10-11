@@ -1,7 +1,7 @@
 #include <SDL2/SDL.h>
 
-#include "Configuration/Frame.h"
-#include "Engine.h"
+#include "Configuration/Frame.hpp"
+#include "Engine.hpp"
 
 Engine *engine = nullptr;
 Engine *Engine::_instance;

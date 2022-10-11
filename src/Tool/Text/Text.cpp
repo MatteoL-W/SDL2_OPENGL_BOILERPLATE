@@ -1,7 +1,7 @@
 #include "SDL2/SDL.h"
 #include "SDL2/SDL_ttf.h"
 
-#include "Text.h"
+#include "Text.hpp"
 
 namespace Tool {
     void Text::generateSurface() {
