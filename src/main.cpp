@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
 
         // FPS Handle (custom in main.h)
         unsigned int frameTime = SDL_GetTicks() - frameStart;
-        if (Configuration::Frame::FPS > frameTime) {
+        if (Configuration::Frame::FRAME_DELAY > frameTime) {
             SDL_Delay(Configuration::Frame::FRAME_DELAY - frameTime);
         }
     }
